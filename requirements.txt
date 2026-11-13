@@ -1,0 +1,9 @@
+# Dependências Python do script organizar.py
+# Instalar dentro do ambiente uv (ver setup_uv.sh)
+
+# leitura de PDF (texto, metadados e número de páginas)
+pypdf>=5.0,<7
+
+# Dependências de sistema, usadas só com --ocr (não são pacotes pip):
+#   pdftoppm  -> pacote poppler-utils (Debian/Ubuntu)
+#   tesseract -> pacote tesseract-ocr e tesseract-ocr-por (idioma português)

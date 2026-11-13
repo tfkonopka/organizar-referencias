@@ -1,0 +1,17 @@
+{
+  "Matemática": ["matemática", "mathematics", "cálculo", "calculus", "álgebra", "algebra", "equações diferenciais", "differential equations", "análise numérica", "numerical analysis", "cálculo variacional", "variational", "topologia", "topology", "análise funcional", "functional analysis"],
+  "Física": ["física", "physics", "óptica", "optics", "fotônica", "photonics", "laser", "espectroscopia", "spectroscopy", "eletromagnetismo", "electromagnetism", "mecânica quântica", "quantum"],
+  "Química": ["química", "chemistry", "orgânica", "organic chemistry", "compostos", "compounds", "reações", "reactions"],
+  "Geociências": ["geologia", "geology", "geofísica", "geophysics", "oceanografia", "oceanography", "meteorologia", "meteorology"],
+  "Ciência da Computação": ["computação", "computing", "computer vision", "visão computacional", "algoritmo", "algorithm", "software", "programação", "programming", "machine learning", "aprendizado de máquina", "redes neurais", "neural network"],
+  "Engenharia Mecânica": ["mecânica dos fluidos", "fluid mechanics", "transferência de calor", "heat transfer", "termodinâmica", "thermodynamics", "difusão", "diffusion", "dinâmica dos fluidos", "computational fluid", "ventilação", "ventilation", "mecânica do contínuo", "continuum mechanics", "thermal spray", "coating"],
+  "Engenharia Elétrica": ["circuitos", "circuits", "eletrônica", "electronics", "vlsi", "sinais", "signal processing", "eletrotécnica", "power systems"],
+  "Engenharia Química": ["engenharia química", "chemical engineering", "processos químicos", "chemical process", "reatores", "reactor", "destilação", "distillation"],
+  "Engenharia Civil": ["estruturas", "structural", "concreto", "concrete", "geotecnia", "geotechnical", "construção civil", "civil engineering"],
+  "Ciências Biológicas": ["biologia", "biology", "genética", "genetics", "ecologia", "ecology", "biochemistry", "bioquímica", "microbiologia", "microbiology"],
+  "Ciências da Saúde": ["medicina", "medicine", "saúde", "health", "clínica", "clinical", "farmacologia", "pharmacology", "enfermagem", "nursing"],
+  "Ciências Agrárias": ["agronomia", "agronomy", "agricultura", "agriculture", "solo", "soil science", "zootecnia", "veterinária"],
+  "Ciências Sociais Aplicadas": ["economia", "economics", "administração", "management", "direito", "law", "contabilidade", "accounting", "finanças", "finance"],
+  "Ciências Humanas": ["filosofia", "philosophy", "história", "history", "sociologia", "sociology", "antropologia", "anthropology", "educação", "education", "psicologia", "psychology"],
+  "Linguística, Letras e Artes": ["linguística", "linguistics", "literatura", "literature", "gramática", "grammar", "tradução", "translation", "artes", "arts", "semiótica", "semiotics"]
+}

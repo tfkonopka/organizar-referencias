@@ -1,0 +1,18 @@
+# ambiente local
+.venv/
+__pycache__/
+*.pyc
+
+# autorização de LLM: decisão pessoal, nunca versionar
+hooks/AUTORIZACAO_LLM.txt
+
+# saídas da execução (contêm caminhos e nomes da biblioteca)
+Biblioteca/
+Biblioteca_nao_identificados/
+_meta/
+*.manifesto.csv
+relatorio.md
+
+# arquivos locais de teste ou cache
+cache_online.json
+*.log
