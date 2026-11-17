@@ -103,6 +103,15 @@ def ocr_paginas(path, n):
         return "\n".join(partes)
 
 
+def _meta_texto(v):
+    """Metadado do PDF como str. O pypdf pode devolver bytes em arquivos malformados."""
+    if v is None:
+        return None
+    if isinstance(v, bytes):
+        v = v.decode("utf-8", errors="replace")
+    return str(v).strip() or None
+
+
 def ler_pdf(path, n_pag, ocr):
     info = {"paginas": None, "texto": "", "titulo": None, "autor": None, "ocr": False}
     try:
@@ -117,8 +126,8 @@ def ler_pdf(path, n_pag, ocr):
                 pass
         info["texto"] = "\n".join(partes)
         meta = r.metadata or {}
-        info["titulo"] = (meta.get("/Title") or "").strip() or None
-        info["autor"] = (meta.get("/Author") or "").strip() or None
+        info["titulo"] = _meta_texto(meta.get("/Title"))
+        info["autor"] = _meta_texto(meta.get("/Author"))
     except Exception:
         pass
     if ocr and len(info["texto"].strip()) < 200:
